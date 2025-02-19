@@ -29,7 +29,7 @@ Make sure you have the following installed:
 
 ```sh
 git clone https://github.com/ashishpanchal5494/joke-search-backend.git
-cd joke-search-backend
+cd joke-search-backend-main
 ```
 
 ### 🔥 2. Install Dependencies
@@ -37,15 +37,17 @@ cd joke-search-backend
 #### Backend
 
 ```sh
-cd joke-search-backend
+cd joke-search-backend-main
 npm install   # or yarn install
 ```
 
 ````
 
-3. Set Up the Database
+### 🔥 3. Set Up the Database
 
 Create MySQL Database & Table
+
+
 
 CREATE DATABASE dad_jokes;
 USE dad_jokes;
@@ -55,13 +57,17 @@ CREATE TABLE favorites (
     joke TEXT NOT NULL
 );
 
- 4. Configure Backend
+
+
+### 🔥 4. Configure Backend
 
  PORT=5000
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=dad_jokes
+
+
 
 ### 🚀 5. Start the Project
 #### Run Backend Server
