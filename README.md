@@ -43,6 +43,26 @@ npm install   # or yarn install
 
 ````
 
+3. Set Up the Database
+
+Create MySQL Database & Table
+
+CREATE DATABASE dad_jokes;
+USE dad_jokes;
+
+CREATE TABLE favorites (
+    id VARCHAR(255) PRIMARY KEY,
+    joke TEXT NOT NULL
+);
+
+ 4. Configure Backend
+
+ PORT=5000
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=yourpassword
+DB_NAME=dad_jokes
+
 ### 🚀 5. Start the Project
 #### Run Backend Server
 ```sh
